@@ -126,13 +126,13 @@ namespace Homework_11
             {
                 while (i < bank.ClientsList.Count)
                 {
-                    printClient.Client.Text += manager.PrintClient(i);
+                    printClient.Client.Items.Add(manager.PrintClient(i));
                     i++;
                 }
             }
             else while(i<bank.ClientsList.Count)
                 {
-                    printClient.Client.Text += consultant.PrintClient(i);
+                    printClient.Client.Items.Add(consultant.PrintClient(i));
                     i++;
                 }
         }

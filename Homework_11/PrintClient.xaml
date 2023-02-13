@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="PrintClient" Height="450" Width="564.5">
     <Grid>
-        <TextBox x:Name="Client" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="539"/>
+        <ListView x:Name="Client" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" Width="539"/>
     </Grid>
 </Window>
